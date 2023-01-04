@@ -1,9 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
+import Hamburger from './Hamburger/Hamburger'
 import Logo from '../Images/Logo.svg'
 import {FaCaretDown} from 'react-icons/fa'
 import {FaInstagram} from 'react-icons/fa'
 
+
 const NavBar = () => {
+
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
+
+
   return (
     <header>
         <nav>
@@ -13,7 +23,9 @@ const NavBar = () => {
             </div>
           </a>
 
-          <ul className='top-nav'>
+          <Hamburger onClick={toggle} isOpen={isOpen}/>
+
+          <ul className='top-nav-ul'>
               <li><a href="#" className='topnavlistitems'>About <FaCaretDown/></a>
 
                 {/* dropdown section */}
@@ -23,6 +35,7 @@ const NavBar = () => {
                   <li><a href="#ethos" className='dropdownnavlistitems'>Ethos</a></li>
                 </ul>
               </li>
+
               {/* back to main menu */}
               <li><a href="/" className='topnavlistitems'>FAQs</a></li>
               <li><a href="/events" className='topnavlistitems'>Events</a></li>

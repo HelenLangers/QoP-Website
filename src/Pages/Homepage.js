@@ -4,9 +4,10 @@ import NavBar from '../Components/NavBar'
 import LandingImage from '../Components/LandingImage'
 
 function Homepage() {
+
   return (
     <>
-      <NavBar/>
+      <NavBar />
 
       <LandingImage/>
       
