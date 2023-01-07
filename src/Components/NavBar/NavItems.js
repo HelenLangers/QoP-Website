@@ -2,13 +2,13 @@ export const navItems = [
     {
         id: 1,
         title: "Who We Are",
-        path: '/#whoweare',
+        path: '#whoweare',
         className: 'nav-item'
     },
     {
         id: 2,
         title: "What We Do",
-        path: '/#whatwedo',
+        path: '#whatwedo',
         className: 'nav-item'
     },
     {

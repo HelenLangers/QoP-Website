@@ -1,7 +1,8 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import NavBar from '../Components/NavBar/NavBar'
-import LandingImage from '../Components/LandingImage'
+import LandingImage from '../Components/HomepageSections/LandingImage'
+import WhoWeAre from '../Components/HomepageSections/WhoWeAre'
 
 function Homepage() {
 
@@ -11,6 +12,7 @@ function Homepage() {
 
       <div className="sections">
         <LandingImage/>
+        <WhoWeAre/>
       </div>
       
       <Footer/>

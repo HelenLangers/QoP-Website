@@ -8,6 +8,10 @@ body {
   font-family: Tahoma, sans-serif;
 }
 
+.sections{
+  width: 100%;
+}
+
 /* nav */
 .navbar {
   display: flex;
@@ -115,6 +119,30 @@ body {
   width: 100%;
   height: 100vh;
   background: url(../src/Images/IMG_0837.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* homepage second block */
+.whatwedo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url(../src/Images/whoweare.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* homepage third block */
+.whatwedo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url(../src/Images/whatwedo.jpg);
   background-size: cover;
   background-position: center;
 }
