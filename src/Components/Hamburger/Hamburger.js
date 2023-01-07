@@ -1,14 +1,18 @@
 import React from 'react'
-import {FaBars} from 'react-icons/fa'
+import { Twirl as Hamburger} from 'hamburger-react'
 
-const Hamburger = () => {
+const HamburgerMenu = () => {
   return (
-    <>
-        <a href="#" className='toggle-button'>
-            <FaBars className='bar'/>
+    <div className='hamburger-menu-icon'>
+        <a href="#">
+            <Hamburger 
+                label="Show menu"
+                size={40}
+                color="#fff"
+                />
         </a>
-    </>
+    </div>
   )
 }
 
-export default Hamburger
+export default HamburgerMenu

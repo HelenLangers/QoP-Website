@@ -17,7 +17,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  height: 8rem;
+  height: 15vh;
   padding: 0 5rem;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.6);
@@ -44,15 +44,20 @@ nav {
 /* main menu */
 .top-nav-ul {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
   list-style: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
+  text-align: center;
+  width: 70vw;
+  justify-content: flex-end;
+  margin-right: 2rem;
 }
 
-.topnavlistitems {
+.listItem {
+  display: flex;
+  align-items: center;
+  height: 15vh;
+}
+
+.topnav-list-items {
   color: #fff;
   padding: 1rem;
   text-decoration: none;
@@ -61,55 +66,45 @@ nav {
   display: block;
 }
 
-.topnavlistitems:hover{
+.topnav-list-items:hover{
   background-color: #f4941c;
   border-radius: 6px;
 }
 
-/* when you hover on the 'about' option */
-nav ul li:hover > ul{
-  opacity: 1;
-  visibility: visible;
-}
-
-
 /* dropdown list */
 .dropdown-ul {
   position: absolute;
-  top: 3rem;
   display: flex;
+  top: 15vh;
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
   margin: 0;
   padding: 0;
   background: #f4941c;
-  border: 1px solid #f4941c;
   border-radius: 6px;
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.3s;
 }
 
-nav ul ul li {
+.dropdown-ul li {
   position: relative;
   height: 3rem;
-  width: fit-content;
-  display: list-item;
 }
 
-.dropdownnavlistitems{
+.submenu-items {
+  display: block;
   color: #fff;
   padding: 1rem 1rem;
   text-decoration: none;
   font-weight: bold;
-  line-height: 3rem;
 }
 
-.dropdownnavlistitems:hover{
+.submenu-items:hover{
   color: #000;
 }
 
+.hidden {
+  display: none;
+}
 
 /* instagram icon */
 .instagram-icon{
@@ -124,16 +119,12 @@ nav ul ul li {
 }
 
 /* hamburger menu */
-.toggle-button{
+.hamburger-menu-icon{
   position: absolute;
   align-self: center;
   right: 5rem;
   display: none;
-  font-size: 2.5rem;
-}
-
-.bar {
-  color: #fff;
+  top: 4rem; 
 }
 
 
@@ -179,38 +170,39 @@ nav ul ul li {
 /* MEDIA QUERIES */
 /* small devices (landscape phones, less than 768px) */
 @media (max-width: 768px){
+  nav{
+    padding-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+  }
+
   .logo-div{
     margin-left: 0;
     margin-bottom: 2rem;
     align-self: center;
-
   }
 
-  .toggle-button{
+  .hamburger-menu-icon{
     display: flex;
   }
 
   .top-nav-ul{
-    /* display: none; */
     width: 100%;
-  }
-
-  nav{
-    padding-top: 2rem;
     flex-direction: column;
-    justify-content: none;
     align-items: flex-start;
-    height: fit-content;
+    padding-left: 0;
   }
 
-  .toggle-button{
-    margin-top: 1rem;
+  .listItem{
+    width:30%;
   }
 
-  .top-nav-ul {
-    flex-direction: column;
+  .dropdown-ul{
+    flex-direction: row;
+    top: 30vh;
   }
-
 }
 
 /* medium devices (tablets, less than 992 px) */
