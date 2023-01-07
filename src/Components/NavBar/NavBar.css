@@ -1,0 +1,159 @@
+/* nav */
+.navbar {
+    display: flex;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #f4941c;
+    height: 12vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    padding: 0 1rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+}
+
+.container {
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 22px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0 0.5rem;
+    height: auto;
+    width: 6rem;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+}
+
+.nav-links {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.25rem;
+    display: block;
+}
+
+.nav-links:hover {
+    background-color: #f4941c;
+    border-radius: 6px;
+}
+
+.activated {
+  /* border-bottom: 1px solid #f4941c; */
+}
+
+.menu-icon {
+    color: #fff;
+    display: none;
+}
+
+/* instagram icon */
+.instagram-icon {
+    font-size: 1.75rem;
+    display: flex;
+    color: #fff;
+    padding: 1rem 1rem;
+}
+
+.instagram-icon:hover {
+    color: #f4941c;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+    height: 14vh;
+    }
+
+    .container {
+    padding: 0 3rem;
+    }
+
+    .logo-container {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    }
+
+    .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 14vh;
+    left: -100%;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    border-bottom: 1px solid #f4941c;
+    }
+
+    .nav-menu.active {
+    background: rgba(0, 0, 0, 0.6);
+    left: 0;
+    opacity: 1;
+    transition: all 0.6s ease;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    }
+
+    .menu-icon {
+    display: block;
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    }
+
+    .nav-item {
+    height: 10vh;
+    }
+
+    .nav-links {
+    width: 100%;
+    }
+
+    .instagram-icon {
+    margin: 1rem;
+    }
+}

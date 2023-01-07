@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import './NavBar.css'
 import {Link, NavLink} from 'react-router-dom';
 import { FaBars, FaTimes, FaInstagram } from 'react-icons/fa'
 import Logo from '../../Images/Logo.svg'

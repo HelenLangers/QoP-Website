@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Components/HomepageSections/Homepage.css'
 import Footer from '../Components/Footer'
 import NavBar from '../Components/NavBar/NavBar'
 import LandingImage from '../Components/HomepageSections/LandingImage'
