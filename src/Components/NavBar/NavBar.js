@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Link, NavLink} from 'react-router-dom';
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaBars, FaTimes, FaInstagram } from 'react-icons/fa'
 import Logo from '../../Images/Logo.svg'
 import { navItems } from './NavItems'
 import Button from '../Button';
@@ -38,6 +38,7 @@ const NavBar = () => {
                     </li>
                     )
                 })}
+                <li className='instagram-icon'><FaInstagram/></li>
                 </ul>
 
             </div>
