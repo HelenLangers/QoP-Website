@@ -12,7 +12,7 @@ const NavBar = () => {
 
   const [dropdown, setDropdown] = useState(false);
 
-  const [hamburgerMenu, setHamburgerMenu] = useState(false)
+
 
   return (
     <header>
@@ -26,27 +26,15 @@ const NavBar = () => {
           <HamburgerMenu />
 
           <ul className='top-nav-ul'>
-          {/* for links staying on the homepage with a #*/}
-            {navItemsNoRouter.map((item) => {
-              if (item.title === "About") {
-                return(
-                <li key={item.id} 
-                    className='listItem'
-                    onMouseEnter={() => setDropdown(true)}
-                    onMouseLeave={() => setDropdown(false)}>
-                  <a href={item.path} 
-                          className={item.className}>
-                          {item.title} <FaCaretDown/>
-                  </a>
-                  {dropdown && <Dropdown/>}
-                </li> 
-            )}
-
-              return (
-              <li key={item.id} className='listItem'>
-                <a href={item.path} className={item.className}>{item.title} <FaCaretDown/></a>
-              </li>
-            )})}
+          {/* about dropdown*/}
+            <li className='listItem'
+                onMouseEnter={() => setDropdown(true)}
+                onMouseLeave={() => setDropdown(false)}>
+              <a className='topnav-list-items'>
+                About<FaCaretDown/>
+              </a>
+              {dropdown && <Dropdown/>}
+            </li> 
 
             {/* for links going to another internal page */}
             {navItemsRouterLink.map((item) => {

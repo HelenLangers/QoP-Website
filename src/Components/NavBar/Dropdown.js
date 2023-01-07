@@ -6,7 +6,8 @@ const Dropdown = () => {
     const [dropdownVisibility, setDropdownVisibility] = useState(false);
 
     return (
-    <ul className={dropdownVisibility ? 'dropdown-ul hidden' : 'dropdown-ul'} onClick={() => setDropdownVisibility(!dropdownVisibility)}>
+    <ul className={dropdownVisibility ? 'dropdown-ul hidden' : 'dropdown-ul'} 
+        onClick={() => setDropdownVisibility(!dropdownVisibility)}>
         {subMenuItems.map((item) => {
             return (
                 <li key={item.id}>
