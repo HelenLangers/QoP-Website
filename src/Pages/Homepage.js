@@ -9,7 +9,9 @@ function Homepage() {
     <>
       <NavBar />
 
-      <LandingImage/>
+      <div className="sections">
+        <LandingImage/>
+      </div>
       
       <Footer/>
     </>

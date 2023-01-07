@@ -1,50 +1,32 @@
-export const navItemsNoRouter = [
-    {
-        id: 1,
-        title: 'About',
-        path: '/#',
-        className: "topnav-list-items"
-    }
-]
-
-export const navItemsRouterLink = [
-    {
-        id: 1,
-        title: "FAQs",
-        path: '/faqs',
-        className: "topnav-list-items"
-    },
-    {
-        id: 2,
-        title: "Events",
-        path: '/events',
-        className: "topnav-list-items"
-    },
-    {
-        id: 3,
-        title: "Donate",
-        path: '/donate',
-        className: "topnav-list-items"
-    }
-]
-
-export const subMenuItems = [
+export const navItems = [
     {
         id: 1,
         title: "Who We Are",
         path: '/#whoweare',
-        className: 'submenu-items'
+        className: 'nav-item'
     },
     {
         id: 2,
         title: "What We Do",
         path: '/#whatwedo',
-        className: 'submenu-items'
+        className: 'nav-item'
     },
     {
         id: 3,
-        title: "Ethos",
-        path: '/#ethos',
-        className: 'submenu-items'
+        title: "FAQs",
+        path: '/faqs',
+        className: "nav-item"
     },
+    {
+        id: 4,
+        title: "Events",
+        path: '/events',
+        className: "nav-item"
+    },
+    {
+        id: 5,
+        title: "Login",
+        path: "/login",
+        className: "nav-item login-button"
+    }
 ]
