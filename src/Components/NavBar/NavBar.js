@@ -18,7 +18,7 @@ const NavBar = () => {
     <header>
         <nav className='navbar'>
             <div className='navbar-container container'>
-                <Link to='#home' className='navbar-logo' onClick={closeMobileMenu}>
+                <Link to='/#home' className='navbar-logo' onClick={closeMobileMenu}>
                     <div className='logo-container'>
                     <img src={Logo} className='logo-image' alt="queens of pain logo"/>
                     </div>
