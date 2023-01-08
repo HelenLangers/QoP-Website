@@ -4,7 +4,7 @@
 
 :root {
   --primary: #f4941c;
-  --primary-light: #fff;
+  --primary-light: rgb(244, 240, 240);
   --primary-dark: #000;
   --neutral-light: ;
   --neutral-dark: ;
@@ -15,7 +15,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: Tahoma, sans-serif;
-  overflow: hidden;
   background-color: var(--primary-light);
   display: flex;
   flex-direction: column;

@@ -1,8 +1,8 @@
 /* nav */
 .navbar {
     display: flex;
-    background: rgba(0, 0, 0, 0.6);
-    border-bottom: 1px solid var(--primary);
+    background: rgb(67, 67, 67);
+    border-bottom: 3px solid var(--primary);
     height: 12vh;
     width: 100%;
     justify-content: center;

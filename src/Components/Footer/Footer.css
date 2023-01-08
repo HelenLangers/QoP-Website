@@ -1,7 +1,7 @@
 footer {
-    position: absolute;
     width: 100%;
-    background-color: blue;
+    background-color: rgb(67, 67, 67);
+    border-top: 3px solid var(--primary);
     padding: 2rem;
     color: #fff;
 }
