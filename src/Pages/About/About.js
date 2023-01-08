@@ -2,11 +2,13 @@ import React from 'react'
 import NavBar from '../../Components/NavBar/NavBar'
 import '../About/About.css'
 import AboutImage from '../../Assets/Images/about-image.jpg'
+import Footer from '../../Components/Footer/Footer'
 
 const About = () => {
   return (
     <>
       <NavBar/>
+      
       <div className='about-page'>
         <h2>About</h2>
 
@@ -21,6 +23,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <Footer/>
     </>
   )
 }

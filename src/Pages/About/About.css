@@ -42,3 +42,11 @@
     background-color: #fff;
     padding: 1rem;
 }
+
+/* MEDIA QUERIES */
+/* small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+    .about-block {
+        display: none;
+    }
+}

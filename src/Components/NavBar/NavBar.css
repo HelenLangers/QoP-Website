@@ -34,8 +34,6 @@
     align-items: center;
     background-color: #fff;
     border-radius: 22px;
-    margin-left: 1rem;
-    margin-right: 1rem;
     padding: 0 0.5rem;
     height: auto;
     width: 6rem;
@@ -94,7 +92,7 @@
 }
 
 .instagram-icon:hover {
-    color: #f4941c;
+    color: var(--primary);
 }
 
 @media (max-width: 768px) {
