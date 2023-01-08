@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
         <div className='left-column'>
           <h3 className='title'>Queens of Pain CC</h3>
-          <div className='logo-container'>
+          <div className='logo-container-footer'>
             <img src={Logo} alt="queens of pain logo"/>
           </div>
           

@@ -10,6 +10,18 @@ footer {
     bottom: 0;
 }
 
+.logo-container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 22px;
+    padding: 0 0.5rem;
+    height: auto;
+    width: 6rem;
+    margin: 0 0 1rem 0;
+}
+
 .left-column,
 .center-column,
 .right-column {
@@ -46,6 +58,7 @@ footer {
 
 .instagram-icon-footer {
     font-size: 1.75rem;
+    margin: 1rem;
     color: #fff;
 }
 
