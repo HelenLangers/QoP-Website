@@ -1,13 +1,12 @@
 .landing-image {
-  background: url(../Assets/Images/groupPhoto.jpeg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../../Assets/Images/backgroundwithmask2.png);
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100vh;
-  mask-image: url(../Assets/SVGs/brush-svg-lower.svg);
-  mask-size: cover;
-  mask-repeat: no-repeat;
-  mask-position: center;
+  min-height: 100vh;
 }
 
 .tagline-div {
@@ -33,8 +32,7 @@
 }
 
 .homepage-header{
-  color: #fff;
-  position: absolute;
+  color: #000;
   margin-top: 15vh;
 }
 

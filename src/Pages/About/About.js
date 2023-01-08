@@ -1,7 +1,7 @@
 import React from 'react'
-import NavBar from '../Components/NavBar/NavBar'
-import './About.css'
-import AboutImage from '../Assets/Images/about-image.jpg'
+import NavBar from '../../Components/NavBar/NavBar'
+import '../About/About.css'
+import AboutImage from '../../Assets/Images/about-image.jpg'
 
 const About = () => {
   return (

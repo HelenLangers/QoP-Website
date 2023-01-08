@@ -1,6 +1,6 @@
 import React from 'react'
-import NavBar from '../Components/NavBar/NavBar'
-import '../Pages/FAQ.css'
+import NavBar from '../../Components/NavBar/NavBar'
+import '../FAQs/FAQ.css'
 
 const FAQs = () => {
   return (

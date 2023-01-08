@@ -1,6 +1,6 @@
 import React from 'react'
-import NavBar from '../Components/NavBar/NavBar'
-import '../Pages/Events.css'
+import NavBar from '../../Components/NavBar/NavBar'
+import '../Events/Events.css'
 
 const Events = () => {
   return (
