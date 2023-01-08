@@ -10,7 +10,7 @@ function Homepage() {
       <NavBar />
 
       <section className='landing-image'>
-        <h1 className='homepage-header'>Queens of Pain CC</h1>
+        <h1 className='homepage-header'></h1>
       </section>
 
       <Footer/>

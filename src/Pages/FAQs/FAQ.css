@@ -4,7 +4,11 @@
     justify-content: center;
     align-items: center;
     margin-top: 12vh;
-    height: 100vh;
+    height: 100%;
+}
+
+.page-header {
+    margin-top: 3rem;
 }
 
 .faq-card-container {
