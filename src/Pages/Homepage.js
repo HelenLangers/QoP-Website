@@ -1,10 +1,7 @@
 import React from 'react'
-import '../Components/HomepageSections/Homepage.css'
+import './Homepage.css'
 import Footer from '../Components/Footer'
 import NavBar from '../Components/NavBar/NavBar'
-import LandingImage from '../Components/HomepageSections/LandingImage'
-import WhoWeAre from '../Components/HomepageSections/WhoWeAre'
-import WhatWeDo from '../Components/HomepageSections/WhatWeDo'
 
 function Homepage() {
 
@@ -12,12 +9,11 @@ function Homepage() {
     <div className='app'>
       <NavBar />
 
-      <div className="sections">
-        <LandingImage/>
-        <WhoWeAre/>
-        <WhatWeDo/>
-      </div>
-      
+      <section className='landing-image'>
+        {/* <img src={landingBackground} alt="" className='landing-image'/> */}
+        <h1 className='homepage-header'>Queens of Pain CC</h1>
+      </section>
+
       <Footer/>
     </div>
   )

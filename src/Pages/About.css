@@ -1,0 +1,44 @@
+.about-page{
+    background: url('../Assets/Images/centerbar.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15vh;
+}
+
+.about-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 0 6rem;
+    width: 100%;
+    height: 20vh;
+}
+
+.image-container{
+    width: 30vw;
+}
+
+.image{
+    margin-left: 2rem;
+    width: 100%;
+    border-radius: 22px;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, .3);
+}
+
+.about-explainer{
+    margin-top: 4rem;
+    width: 40vw;
+    border-radius: 22px;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, .3);
+    height: fit-content;
+    background-color: #fff;
+    padding: 1rem;
+}

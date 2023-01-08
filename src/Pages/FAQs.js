@@ -1,13 +1,14 @@
 import React from 'react'
 import NavBar from '../Components/NavBar/NavBar'
+import '../Pages/FAQ.css'
 
 const FAQs = () => {
   return (
     <div className='app'>
       <NavBar/>
 
-      <section className='faq-container'>
-        FAQs here!
+      <section className='faq-page'>
+        <h1 className='page-header'>Frequently Asked Questions</h1>
       </section>
 
 

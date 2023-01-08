@@ -2,7 +2,7 @@
 .navbar {
     display: flex;
     background: rgba(0, 0, 0, 0.6);
-    border-bottom: 1px solid #f4941c;
+    border-bottom: 1px solid var(--primary);
     height: 12vh;
     width: 100%;
     justify-content: center;
@@ -72,12 +72,12 @@
 }
 
 .nav-links:hover {
-    background-color: #f4941c;
+    background-color: var(--primary);
     border-radius: 6px;
 }
 
 .activated {
-  /* border-bottom: 1px solid #f4941c; */
+    border-bottom: 1px solid var(--primary);
 }
 
 .menu-icon {

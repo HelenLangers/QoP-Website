@@ -1,30 +1,24 @@
 export const navItems = [
     {
         id: 1,
-        title: "Who We Are",
-        path: '/#whoweare',
+        title: "About QoP",
+        path: '/about',
         className: 'nav-item'
     },
     {
         id: 2,
-        title: "What We Do",
-        path: '/#whatwedo',
-        className: 'nav-item'
-    },
-    {
-        id: 3,
         title: "FAQs",
         path: '/faqs',
         className: "nav-item"
     },
     {
-        id: 4,
+        id: 3,
         title: "Events",
         path: '/events',
         className: "nav-item"
     },
     {
-        id: 5,
+        id: 4,
         title: "Login",
         path: "/login",
         className: "nav-item login-button"
