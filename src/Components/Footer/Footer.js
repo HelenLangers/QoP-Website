@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           
           <p className='footer-text'>A women-led Edinburgh <br/>cycling community</p>
-          <p className='footer-text'>Name used with permission by Rapha</p>
+          <p className='footer-text'>Name used with permission by Isabel Best</p>
         </div>
 
         <hr className='footer-break'/>
